@@ -8,7 +8,7 @@ class paper{
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("images/download.jpg");
+        this.image = loadImage("paper.png");
         paper.scale = 0.1;
         World.add(world, this.body);
       }
